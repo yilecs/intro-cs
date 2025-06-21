@@ -186,7 +186,7 @@ class Fraction(object):
         """ Returns a float value of the fraction """
         return self.num/self.denom
     def reduce(self):
-        """ Returns a new fraction the reduced version of self 
+        """ Returns a new fraction the reduced version of self
             using the greatest common divisor """
         def gcd(n, d):
             while d != 0:
